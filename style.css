@@ -1,0 +1,42 @@
+.navbar a {
+  margin: 0 1.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.jumbotron {
+  padding: 7rem 2rem 0rem;
+  background: linear-gradient(#6fc3f7 0%, #aadcf0 40%, #c2fdff 100%);
+}
+
+.jumbotron img:hover {
+  transform: scale(1.1);
+}
+
+#About {
+  padding: 5rem 2rem;
+  padding-bottom: 80px;
+  background: linear-gradient(#ffffff 0%, #ffffff 40%, #c1fbfe 100%);
+}
+
+#Gallery {
+  background: linear-gradient(#c1fbfe 0%, #ffffff 40%, #80ceff 100%);
+}
+
+#Gallery .card:hover {
+  transform: scale(1.1);
+}
+
+#Contact_me {
+  padding: 5rem 2rem;
+  padding-bottom: 80px;
+  background: linear-gradient(#ffffff 0%, #ffffff 40%, #c1fbfe 100%);
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.footer {
+  padding-top: 0px;
+  font-family: "Poppins", sans-serif;
+}
