@@ -10,6 +10,8 @@
     <!-- bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -28,7 +30,7 @@
   <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-      <div class="container">
+      <div class="container" data-aos="fade-down" data-aos-duration="800" data-aos-delay="50">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -56,9 +58,11 @@
     <section class="jumbotron" id="Home">
       <div class="container">
         <div class="row justify-content-around fs-5">
-          <div class="col-md-5">
-            <p>Hello,I'm</p>
-            <h1>Allin Shifna Kafila</h1>
+          <div class="col-md-5" data-aos="fade-right" data-aos-duration="800">
+            <div class="col name">
+              <p>Hello,I'm</p>
+              <h1>Allin Shifna Kafila</h1>
+            </div>
             <div class="col welcome fs-6">
               <p>welcome to the about me website. Through this simple website I will tell you a little about me. If you have a message or question, you can fill it in the contact section yaww. Thank You</p>
             </div>
@@ -68,7 +72,7 @@
               <p><i class="bi bi-envelope"></i> <a href="mailto:allinkfla@gmail.com" class="text-black"> allinkfla@gmail.com</a></p>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="flip-left" data-aos-duration="800">
             <img src="img/allin2.jpg" alt="Allin Shifna Kafila" width="300" class="rounded-circle img-fluid img-thumbnail" />
           </div>
         </div>
@@ -87,22 +91,19 @@
     <!-- about me -->
     <section id="About">
       <div class="container">
-        <div class="row text-center mb-3">
+        <div class="row text-center mb-3" data-aos="fade-up" data-aos-duration="800" data-aos-delay="50">
           <div class="col">
             <h2>About Me</h2>
           </div>
         </div>
-        <div class="row justify-content-center fs-5 text-center">
+        <div class="row justify-content-center fs-5 text-center" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
           <div class="text 1">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem architecto, voluptate unde sed molestiae sit nesciunt ratione harum. Animi provident dolor mollitia, qui, vitae similique maxime esse beatae aliquid iusto quod,
-              officiis in est officia debitis. Optio reprehenderit consectetur id?
-            </p>
+            <p>a little introduction about me, my name is Allin Shifna Kafila usually called Allin, I was born on December 4 2005, I am currently 18 years old and sitting in class 12 at SMKN 1 Adiwerna</p>
           </div>
-          <div class="text 2">
+          <div class="text 2" data-aos-delay="400">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui deserunt quos, odio itaque blanditiis earum. Molestiae illum nobis eum minus magni cum optio! At magnam delectus nemo nesciunt quis asperiores et id autem
-              consectetur atque possimus, assumenda officiis beatae! Modi.
+              Regarding hobbies, I have several hobbies that I always do when I have free time, for example writing, I always write down what I feel, for me it makes me more free to express things that I cannot say, usually I write it in
+              the form of an essay, short story or diary. Other than that, I also like listening to music, reading novels and watching movies, all of which are great ways to fill my free time.
             </p>
           </div>
         </div>
@@ -114,16 +115,16 @@
     <section id="Gallery">
       <div class="container">
         <div class="row text-center mb-3">
-          <div class="col">
+          <div class="col" data-aos="fade-up">
             <h2>Gallery</h2>
           </div>
         </div>
-        <div class="row justify-content-center">
+        <div class="row justify-content-center Gallery-card">
           <div class="col-md-4 mb-3">
             <div class="card">
               <img src="img/project/bali.jpg" class="card-img-top" alt="Project 1" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">moment in bali with friends. we took a picture at one of the attractions we visited, melasti unggasan beach.</p>
               </div>
             </div>
           </div>
@@ -131,7 +132,7 @@
             <div class="card">
               <img src="img/project/osis.jpg" class="card-img-top" alt="Project 2" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Osis moment. my osis friends and I took a picture in the studio during the reorganization.</p>
               </div>
             </div>
           </div>
@@ -139,7 +140,7 @@
             <div class="card">
               <img src="img/project/yearbook.jpg" class="card-img-top" alt="Project 3" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Yearbook moment. my friends and I took a picture while making the yearbook. we took the theme of the american yearbook.</p>
               </div>
             </div>
           </div>
@@ -147,7 +148,7 @@
             <div class="card">
               <img src="img/project/allinbali.jpg" class="card-img-top" alt="Project 4" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">me in bali, taking pictures at the beautiful and cool lake bedugul bali.</p>
               </div>
             </div>
           </div>
@@ -155,7 +156,7 @@
             <div class="card">
               <img src="img/project/yballin.jpg" class="card-img-top" alt="Project 5" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">me during yearbook. taking a picture with american yearbook themed costume.</p>
               </div>
             </div>
           </div>
@@ -174,12 +175,12 @@
     <!-- contact me -->
     <section id="Contact_me">
       <div class="container">
-        <div class="row text-center mb-3">
+        <div class="row text-center mb-3" data-aos="fade-up" data-aos-duration="800" data-aos-delay="50">
           <div class="col">
             <h2>Contact Me</h2>
           </div>
         </div>
-        <div class="row justify-content-center">
+        <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="800" data-aos-delay="50">
           <div class="col-md-6">
             <div class="alert alert-primary d-none my-alert" role="alert">Thank you for message!</div>
             <form name="contact-form">
@@ -220,6 +221,18 @@
     <!-- akhir footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const GalleryCard = document.querySelectorAll(".Gallery-card");
+
+      GalleryCard.forEach((img, i) => {
+        img.dataset.aos = "fade-up";
+        img.dataset.aosDuration = 800;
+      });
+
+      AOS.init();
+    </script>
 
     <script>
       const scriptURL = "https://script.google.com/macros/s/AKfycbwa0yvnSM5vfjqiAK76Dj9t5oJ1zzQpC_aBQs7gsbfdLcwdBcx8Q9aqVlkQ_3Rls1RZ/exec";

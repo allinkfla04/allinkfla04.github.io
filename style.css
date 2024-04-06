@@ -8,10 +8,6 @@
   background: linear-gradient(#6fc3f7 0%, #aadcf0 40%, #c2fdff 100%);
 }
 
-.jumbotron img:hover {
-  transform: scale(1.1);
-}
-
 #About {
   padding: 5rem 2rem;
   padding-bottom: 80px;
