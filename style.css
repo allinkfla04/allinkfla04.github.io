@@ -32,6 +32,10 @@
   background: linear-gradient(#ffffff 0%, #ffffff 40%, #c1fbfe 100%);
 }
 
+.alert {
+  background-color: #dbfdff;
+}
+
 section {
   padding-top: 5rem;
 }
